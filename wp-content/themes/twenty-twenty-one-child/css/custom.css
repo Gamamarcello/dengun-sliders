@@ -1,0 +1,104 @@
+body {
+    background-color:#fff!important;
+}
+
+/* Slider */
+.slide h3.slide-title, .swiper h3.slide-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family:'Ubuntu', sans-serif;
+}
+.slide-desc {
+    font-size: 19px;
+    font-weight:500;
+}
+.slide img, .swiper img {
+    width: 600px;
+    margin-bottom:40px;
+}
+.swiper img {
+    margin-top:50px;
+}
+.slick-slide, .swiper {
+    text-align:center;
+}
+.slick-prev, .slick-next {
+    background-color: transparent!important;
+}
+.slick-next {
+    left: 50px;
+    top:-15px;
+}
+.slick-prev {
+    left:0;
+    top:-15px;
+}
+.slick-prev::before, .slick-next::before {
+    color: #0C92F3;
+    font-size: 30px;
+}
+.slick a, .swiper a  {
+    font-weight: 700;
+    color: #309CF4;
+    margin-top: 45px;
+    display: block;
+    font-family:'Ubuntu', sans-serif;
+}
+.slick a::after, .swiper a::after {
+    content: '→';
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.slide.d-md-flex, .swiper-slide.d-md-flex {
+    flex-direction: column-reverse;
+    display: flex!important;
+}
+.swiper-button-next {
+    left: 60px!important;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 5%!important;
+    border: 2px solid#0C92F3;
+    padding: 5px 20px;
+    border-radius: 100%;
+}
+.swiper-button-prev, .swiper-button-next  {
+    background-image: none!important;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size:20px;
+}
+@media(min-width:768px) {
+    .slide .col-md-6, .swiper .col-md-6{
+        width:50%;
+    }
+    .slide.d-md-flex, .swiper-slide.d-md-flex {
+        flex-direction:row;
+        align-items: center;
+    }
+    .slide img, .swiper img {
+        margin-bottom:0;
+    }
+    .slick-slide, .swiper {
+        text-align:left;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 100%!important;
+    }
+    .swiper {
+        min-height:600px;
+    }
+    .slick-next {
+        top:100%;
+    }
+    .slick-prev {
+        top:100%;
+    }
+}
+@media(min-width:992px) {
+    .swiper-button-next, .swiper-button-prev {
+        top: 85%!important;
+    }
+}
