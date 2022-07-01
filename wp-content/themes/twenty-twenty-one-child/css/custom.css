@@ -68,6 +68,7 @@ body {
     margin-top: 45px;
     display: block;
     font-family:'Ubuntu', sans-serif;
+    text-decoration:none;
 }
 .slick a::after, .swiper a::after, .slider-item a::after {
     content: '→';

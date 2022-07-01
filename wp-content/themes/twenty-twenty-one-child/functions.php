@@ -150,6 +150,8 @@ function vanilla_slider_shortcode () {
 
 	endif;
 
+	wp_enqueue_script( 'custom', get_stylesheet_directory_uri() . '/js/vanilla.js');
+
 	return ob_get_clean();
 }
 
