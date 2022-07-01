@@ -15,7 +15,7 @@ Easily create a new slide in the post type "page" and add the slides anywhere on
 Make a clone of the project to your machine 
 
 ```bash
-  git clone https://github.com/Gamamarcello/sliders.git
+  git clone https://github.com/Gamamarcello/degun-sliders.git
   cd sliders
 ```
 Locate the wp-config.php file in the project root and add your database data.
